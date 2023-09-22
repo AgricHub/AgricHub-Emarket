@@ -29,7 +29,7 @@
     "bootstrap": "4.6.0",
     "chart.js": "2.9.4",
     "classnames": "2.2.6",
-    "moment": "2.29.1",
+    "moment": "2.29.4",
     "next": "10.0.6",
     "next-compose-plugins": "2.2.1",
     "next-fonts": "1.4.0",
