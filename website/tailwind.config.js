@@ -1,135 +1,52 @@
-const plugin = require("tailwindcss/plugin");
-const colors = require("tailwindcss/colors");
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ["./**/*.html", "./*.html", "./**/*.js", "./*.js"],
-    options: {
-      safelist: [],
-    },
-  },
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
   theme: {
+    container: {
+      center: true,
+      padding: "1rem",
+    },
     colors: {
-      ...colors,
+      current: "currentColor",
+      transparent: "transparent",
+      white: "#FFFFFF",
+      black: "#090E34",
+      dark: "#1D2144",
+      primary: "#4A6CF7",
+      yellow: "#FBB040",
+      "body-color": "#959CB1",
+    },
+    screens: {
+      xs: "450px",
+      // => @media (min-width: 450px) { ... }
+
+      sm: "575px",
+      // => @media (min-width: 576px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "992px",
+      // => @media (min-width: 992px) { ... }
+
+      xl: "1200px",
+      // => @media (min-width: 1200px) { ... }
+
+      "2xl": "1400px",
+      // => @media (min-width: 1400px) { ... }
     },
     extend: {
-      minHeight: {
-        "screen-75": "75vh",
-      },
-      fontSize: {
-        55: "55rem",
-      },
-      opacity: {
-        80: ".8",
-      },
-      zIndex: {
-        2: 2,
-        3: 3,
-      },
-      inset: {
-        "-100": "-100%",
-        "-225-px": "-225px",
-        "-160-px": "-160px",
-        "-150-px": "-150px",
-        "-94-px": "-94px",
-        "-50-px": "-50px",
-        "-29-px": "-29px",
-        "-20-px": "-20px",
-        "25-px": "25px",
-        "40-px": "40px",
-        "95-px": "95px",
-        "145-px": "145px",
-        "195-px": "195px",
-        "210-px": "210px",
-        "260-px": "260px",
-      },
-      height: {
-        "95-px": "95px",
-        "70-px": "70px",
-        "350-px": "350px",
-        "500-px": "500px",
-        "600-px": "600px",
-      },
-      maxHeight: {
-        "860-px": "860px",
-      },
-      maxWidth: {
-        "100-px": "100px",
-        "120-px": "120px",
-        "150-px": "150px",
-        "180-px": "180px",
-        "200-px": "200px",
-        "210-px": "210px",
-        "580-px": "580px",
-      },
-      minWidth: {
-        "140-px": "140px",
-        48: "12rem",
-      },
-      backgroundSize: {
-        full: "100%",
+      boxShadow: {
+        signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
+        one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
+        sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
     },
   },
-  variants: [
-    "responsive",
-    "group-hover",
-    "focus-within",
-    "first",
-    "last",
-    "odd",
-    "even",
-    "hover",
-    "focus",
-    "active",
-    "visited",
-    "disabled",
-  ],
-  plugins: [
-    require("@tailwindcss/forms"),
-    plugin(function ({ addComponents, theme }) {
-      const screens = theme("screens", {});
-      addComponents([
-        {
-          ".container": { width: "100%" },
-        },
-        {
-          [`@media (min-width: ${screens.sm})`]: {
-            ".container": {
-              "max-width": "640px",
-            },
-          },
-        },
-        {
-          [`@media (min-width: ${screens.md})`]: {
-            ".container": {
-              "max-width": "768px",
-            },
-          },
-        },
-        {
-          [`@media (min-width: ${screens.lg})`]: {
-            ".container": {
-              "max-width": "1024px",
-            },
-          },
-        },
-        {
-          [`@media (min-width: ${screens.xl})`]: {
-            ".container": {
-              "max-width": "1280px",
-            },
-          },
-        },
-        {
-          [`@media (min-width: ${screens["2xl"]})`]: {
-            ".container": {
-              "max-width": "1280px",
-            },
-          },
-        },
-      ]);
-    }),
-  ],
+  plugins: [],
 };
