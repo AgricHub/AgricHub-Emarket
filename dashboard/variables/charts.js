@@ -6,36 +6,13 @@ if (typeof document === "undefined") {
     querySelector: () => {},
   };
 }
-/*!
 
-=========================================================
-* NextJS Argon Dashboard - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/nextjs-argon-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/nextjs-argon-dashboard/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 const Chart = require("chart.js");
-//
-// Chart extension for making the bars rounded
-// Code from: https://codepen.io/jedtrow/full/ygRYgo
-//
-
 Chart.elements.Rectangle.prototype.draw = function () {
   var ctx = this._chart.ctx;
   var vm = this._view;
   var left, right, top, bottom, signX, signY, borderSkipped, radius;
   var borderWidth = vm.borderWidth;
-  // Set Radius Here
-  // If radius is large enough to cause drawing errors a max radius is imposed
   var cornerRadius = 6;
 
   if (!vm.horizontal) {
@@ -58,21 +35,16 @@ Chart.elements.Rectangle.prototype.draw = function () {
     borderSkipped = vm.borderSkipped || "left";
   }
 
-  // Canvas doesn't allow us to stroke inside the width so we can
-  // adjust the sizes to fit if we're setting a stroke on the line
   if (borderWidth) {
-    // borderWidth shold be less than bar width and bar height.
     var barSize = Math.min(Math.abs(left - right), Math.abs(top - bottom));
     borderWidth = borderWidth > barSize ? barSize : borderWidth;
     var halfStroke = borderWidth / 2;
-    // Adjust borderWidth when bar top position is near vm.base(zero).
     var borderLeft = left + (borderSkipped !== "left" ? halfStroke * signX : 0);
     var borderRight =
       right + (borderSkipped !== "right" ? -halfStroke * signX : 0);
     var borderTop = top + (borderSkipped !== "top" ? halfStroke * signY : 0);
     var borderBottom =
       bottom + (borderSkipped !== "bottom" ? -halfStroke * signY : 0);
-    // not become a vertical line?
     if (borderLeft !== borderRight) {
       top = borderTop;
       bottom = borderBottom;
@@ -88,10 +60,7 @@ Chart.elements.Rectangle.prototype.draw = function () {
   ctx.fillStyle = vm.backgroundColor;
   ctx.strokeStyle = vm.borderColor;
   ctx.lineWidth = borderWidth;
-
-  // Corner points, from bottom-left to bottom-right clockwise
-  // | 1 2 |
-  // | 0 3 |
+  
   var corners = [
     [left, bottom],
     [left, top],
