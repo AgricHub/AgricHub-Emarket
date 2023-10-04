@@ -41,7 +41,7 @@ const AboutSectionOne = () => {
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
+                    <List text="AgricHub" />
                     <List text="Rich documentation" />
                     <List text="Developer friendly" />
                   </div>
