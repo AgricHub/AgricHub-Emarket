@@ -1,6 +1,14 @@
 # AgricHub-Emarket
 This repository contain the Emarket frontend of the AgricHub
 
-Documentations
+Navigate to the  folder where your task is allocated
+````bash
+cd dashboard
+````
+or 
 
-- Meet these requirements as follows 
+````bash
+cd website
+````
+After navigating into a specific directory then perform the changes that are required,
+The contribution documentation will be provided by the team shortly.
