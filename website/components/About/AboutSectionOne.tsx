@@ -25,7 +25,10 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="AgricHub Official Website"
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                paragraph="
+                  At AgricHub, we believe that by embracing the digital age, agriculture can flourish in ways never before imagined. Join us on our journey to revolutionize the agricultural marketing landscape, and together, 
+                  we can build a sustainable and prosperous future for farmers and consumers alike.
+                "
                 mb="44px"
               />
 
