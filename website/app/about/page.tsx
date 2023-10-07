@@ -7,7 +7,12 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Welcome to AgricHub, your trusted partner in the digital transformation of agriculture. At AgricHub, we are dedicated to reshaping the landscape of agricultural marketing by providing an innovative online platform that connects farmers, producers, and consumers in a seamless and efficient manner."
+        description="
+          Welcome to AgricHub, your trusted partner in the digital transformation of 
+          agriculture. At AgricHub, we are dedicated to reshaping the landscape of 
+          agricultural marketing by providing an innovative online platform that connects 
+          farmers, producers, and consumers in a seamless and efficient manner.
+        "
       />
       <AboutSectionOne />
       <AboutSectionTwo />
