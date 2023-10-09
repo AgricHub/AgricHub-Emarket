@@ -47,5 +47,5 @@ For answers to common questions about this code of conduct, see [FAQ](https://ww
 
 Thank you for contributing to our agricultural products project and helping us create a welcoming and inclusive community.
 
-[Your Name]
-[Your Contact Information]
+[AgricHub Project Team]
+<!-- [Your Contact Information] -->

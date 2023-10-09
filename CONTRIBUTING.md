@@ -102,5 +102,5 @@ If you have questions or need assistance, you can reach out to us at [your conta
 
 Thank you for contributing to our agricultural products project! Your efforts are greatly appreciated.
 
-[Your Name]
-[Your Contact Information]
+[AgricHub Project Team]
+<!-- [Your Contact Information] -->
