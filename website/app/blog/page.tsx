@@ -7,7 +7,10 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="AgricHub is deeply committed to promoting sustainable agriculture practices. 
+          We encourage eco-friendly farming methods, support organic farming initiatives,
+          and connect consumers with producers who prioritize environmental stewardship.
+        "
       />
 
       <section className="pt-[120px] pb-[120px]">

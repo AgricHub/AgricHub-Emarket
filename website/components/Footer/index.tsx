@@ -29,8 +29,10 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Welcome to AgricHub, your trusted partner in the digital transformation of 
+                agriculture. At AgricHub, we are dedicated to reshaping the landscape of 
+                agricultural marketing by providing an innovative online platform that connects 
+                farmers, producers, and consumers in a seamless and efficient manner.
                 </p>
                 <div className="flex items-center">
                   <a
