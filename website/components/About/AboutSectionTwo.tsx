@@ -4,7 +4,7 @@ const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full px-4 lg:w-1/2">
             <div
               className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
@@ -32,7 +32,7 @@ const AboutSectionTwo = () => {
                   AgricHub Data Team
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                As the agricultural industry evolves, AgricHub's Data Team remains dedicated to pushing the boundaries of what's possible with data. They are committed to enhancing the user experience, 
+                As the agricultural industry evolves, AgricHub Data Team remains dedicated to pushing the boundaries of what possible with data. They are committed to enhancing the user experience, 
                 promoting sustainable farming practices, and contributing to the overall growth and success of the agricultural sector.
                 </p>
               </div>
@@ -41,7 +41,7 @@ const AboutSectionTwo = () => {
                   API Usage
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                At AgricHub, we recognize that innovation thrives when collaboration is at the forefront. That's why we offer a robust and developer-friendly API (Application Programming Interface) that allows businesses, developers, and partners to seamlessly integrate AgricHub's agricultural data and services into their own applications, websites, and systems.
+                At AgricHub, we recognize that innovation thrives when collaboration is at the forefront. That why we offer a robust and developer-friendly API (Application Programming Interface) that allows businesses, developers, and partners to seamlessly integrate AgricHub's agricultural data and services into their own applications, websites, and systems.
                 </p>
               </div>
             </div>
