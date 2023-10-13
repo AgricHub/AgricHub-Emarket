@@ -38,10 +38,12 @@ const AboutSectionTwo = () => {
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  API Usage
+                  Hub API Usage
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                At AgricHub, we recognize that innovation thrives when collaboration is at the forefront. That why we offer a robust and developer-friendly API (Application Programming Interface) that allows businesses, developers, and partners to seamlessly integrate AgricHub's agricultural data and services into their own applications, websites, and systems.
+                At AgricHub, we recognize that innovation thrives when collaboration is at the forefront. That why we offer a robust and developer-friendly API 
+                (Application Programming Interface) that allows businesses, developers, and partners to seamlessly integrate AgricHub data and 
+                services into their own applications, websites, and systems.
                 </p>
               </div>
             </div>
