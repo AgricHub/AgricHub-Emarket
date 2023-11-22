@@ -6,7 +6,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Daniel Marvin",
-    designation: "Founder @GricHub",
+    designation: "Founder @AgricHub",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-01.png",
