@@ -97,9 +97,11 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    AgriHub's UI/UX design doesn't just stop at aesthetics; 
+                    it's a commitment to facilitating connections and fostering community. 
+                    We believe in the power of design to bring people together, 
+                    and our platform reflects this ethos by promoting collaboration, 
+                    knowledge-sharing, and a sense of belonging within the agricultural community.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">

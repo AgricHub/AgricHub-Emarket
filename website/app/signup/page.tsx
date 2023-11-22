@@ -12,7 +12,7 @@ const SignupPage = () => {
                   Create your account
                 </h3>
                 <p className="mb-11 text-center text-base font-medium text-body-color">
-                  It’s totally free and super easy
+                  AgricHub Welcomes you all!
                 </p>
                 <button className="mb-6 flex w-full items-center justify-center rounded-md bg-white p-3 text-base font-medium text-body-color shadow-one hover:text-primary dark:bg-[#242B51] dark:text-body-color dark:shadow-signUp dark:hover:text-white">
                   <span className="mr-3">
