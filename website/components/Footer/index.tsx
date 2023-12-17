@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import HubLogo from "public/images/logo/logo1.png";
-import AgricHubLogo from "public/images/logo/logo2.png";
 
 
 const Footer = () => {
@@ -17,14 +15,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src={HubLogo}
+                    src="public/images/logo/logo1.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src={AgricHubLogo}
+                    src="public/images/logo/logo2.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
