@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import HubLogo from "/public/images/logo/logo1.png";
-import AgricHubLogo from "/public/images/logo/logo2.png";
+import HubLogo from "public/images/logo/logo1.png";
+import AgricHubLogo from "public/images/logo/logo2.png";
 
 const Header = () => {
   // Navbar toggle

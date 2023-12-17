@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import HubLogo from "/public/images/logo/logo1.png";
-import AgricHubLogo from "/public/images/logo/logo2.png";
+import HubLogo from "public/images/logo/logo1.png";
+import AgricHubLogo from "public/images/logo/logo2.png";
 
 
 const Footer = () => {
