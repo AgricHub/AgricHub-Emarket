@@ -18,7 +18,10 @@ const Hero = () => {
                 Agricultural Marketting System.
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Startup is free Next.js template for startups business websites comes with all the essential pages, components, and sections you need to launch a complete business website, built-with Next 13.x and Tailwind CSS.
+                AgricHub's website serves as the central hub for revolutionizing agriculture in Uganda and across Africa. Seamlessly connecting farmers, agribusinesses, retailers, and consumers, 
+                our platform offers a dynamic online marketplace designed to simplify the buying and selling of agricultural products. 
+                With comprehensive product listings, secure transactions, and invaluable market insights, AgricHub empowers stakeholders of all sizes to thrive in the digital age of agriculture. Join us in 
+                transforming the agricultural landscape and building a sustainable future for farmers and consumers alike
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
