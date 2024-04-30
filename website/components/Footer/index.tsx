@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Footer = () => {
   return (
     <>
@@ -14,14 +15,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo1.png"
+                    src="/public/images/logo/logo1.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo2.png"
+                    src="/public/images/logo/logo2.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -210,7 +211,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Daniel Marvin <a href="https://nextjstemplates.com" rel="nofollow noopener">JoshicTech</a>
+              AgricHub<a href="https://agrichub.net" rel="nofollow noopener">AgricHub Team</a>
             </p>
           </div>
         </div>
